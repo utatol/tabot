@@ -1,7 +1,7 @@
 # TUTORIAL
 
 ### PLAYER TERMUX
-Copy saja text dibawah ↓
+Copy aja text dibawah ↓
 ```bash
 > pkg update && pkg upgrade
 > pkg install git -y
