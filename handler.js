@@ -23,42 +23,144 @@ module.exports = {
       m.exp = 0
       m.limit = false
       try {
-        let user = global.db.data.users[m.sender]
-        if (typeof user !== 'object') global.db.data.users[m.sender] = {}
+        let user = global.DATABASE._data.users[m.sender]
+        if (typeof user !== 'object') global.DATABASE._data.users[m.sender] = {}
         if (user) {
-          if (!isNumber(user.exp)) user.exp = 0
-          if (!isNumber(user.limit)) user.limit = 10
-          if (!isNumber(user.lastclaim)) user.lastclaim = 0
-          if (!('registered' in user)) user.registered = false
-          if (!user.registered) {
-            if (!('name' in user)) user.name = this.getName(m.sender)
-            if (!isNumber(user.age)) user.age = -1
-            if (!isNumber(user.regTime)) user.regTime = -1
-          }
-          if (!isNumber(user.afk)) user.afk = -1
-          if (!('afkReason' in user)) user.afkReason = ''
-          if (!('banned' in user)) user.banned = false
-          if (!isNumber(user.level)) user.level = 0
-          if (!user.role) user.role = 'Beginner'
-          if (!('autolevelup' in user)) user.autolevelup = false
-        } else global.db.data.users[m.sender] = {
-          exp: 0,
-          limit: 10,
-          lastclaim: 0,
-          registered: false,
-          name: this.getName(m.sender),
-          age: -1,
-          regTime: -1,
-          afk: -1,
-          afkReason: '',
-          banned: false,
-          level: 0,
-          role: 'Beginner',
-          autolevelup: false,
+            if (!isNumber(user.healt)) user.healt = 0
+            if (!isNumber(user.level)) user.level = 0
+            if (!user.role) user.role = 'Beginner'
+            if (!isNumber(user.exp)) user.exp = 0
+            if (!isNumber(user.limit)) user.limit = 100
+            if (!isNumber(user.lastclaim)) user.lastclaim = 0
+            if (!isNumber(user.money)) user.money = 0
+            
+            if (!isNumber(user.diamond)) user.diamond = 0
+            if (!isNumber(user.iron)) user.iron = 0
+
+            if (!isNumber(user.common)) user.common = 0
+            if (!isNumber(user.uncommon)) user.uncommon = 0
+            if (!isNumber(user.mythic)) user.mythic = 0
+            if (!isNumber(user.legendary)) user.legendary = 0
+            if (!isNumber(user.pet)) user.pet = 0
+        
+            if (!isNumber(user.potion)) user.potion = 0
+            if (!isNumber(user.sampah)) user.sampah = 0
+            if (!isNumber(user.armor)) user.armor = 0
+            
+            if (!isNumber(user.kucing)) user.kucing = 0
+            if (!isNumber(user.kucinglastclaim)) user.kucinglastclaim = 0
+            if (!isNumber(user.kuda)) user.kuda = 0
+            if (!isNumber(user.kudalastclaim)) user.kudalastclaim = 0
+            if (!isNumber(user.rubah)) user.rubah = 0
+            if (!isNumber(user.rubahlastclaim)) user.rubahlastclaim = 0
+            if (!isNumber(user.anjing)) user.anjing = 0
+            if (!isNumber(user.anjinglastclaim)) user.anjinglastclaim = 0
+
+            if (!'Banneduser' in user) user.Banneduser = false
+            if (!'BannedReason' in user) user.BannedReason = ''
+            if (!isNumber(user.warn)) user.warn = 0
+
+            if (!isNumber(user.afk)) user.afk = -1
+            if (!'afkReason' in user) user.afkReason = ''
+        
+            if (!isNumber(user.anakkucing)) user.anakkucing = 0
+            if (!isNumber(user.anakkuda)) user.anakkuda = 0
+            if (!isNumber(user.anakrubah)) user.anakrubah = 0
+            if (!isNumber(user.anakanjing)) user.anakanjing = 0
+            if (!isNumber(user.makananpet)) user.makananpet = 0
+
+            if (!isNumber(user.antispam)) user.antispam = 0
+            if (!isNumber(user.antispamlastclaim)) user.antispamlastclaim = 0
+
+            if (!isNumber(user.kayu)) user.kayu = 0
+            if (!isNumber(user.batu)) user.batu = 0
+            if (!isNumber(user.string)) user.string = 0
+            if (!isNumber(user.sword)) user.sword = 0
+            if (!isNumber(user.sworddurability)) user.sworddurability = 0
+            if (!isNumber(user.pickaxe)) user.pickaxe = 0
+            if (!isNumber(user.pickaxedurability)) user.pickaxedurability = 0
+            if (!isNumber(user.fishingrod)) user.fishingrod = 0
+            if (!isNumber(user.fishingroddurability)) user.fishingroddurability = 0
+
+            if (!isNumber(user.lastadventure)) user.lastadventure = 0
+            if (!isNumber(user.lastfishing)) user.lastfishing = 0
+            if (!isNumber(user.lastdungeon)) user.lastdungeon = 0
+            if (!isNumber(user.lastduel)) user.lastduel = 0
+            if (!isNumber(user.lastmining)) user.lastmining = 0
+            if (!isNumber(user.lasthunt)) user.lasthunt = 0
+            if (!isNumber(user.lastweekly)) user.lastweekly = 0
+            if (!isNumber(user.lastmonthly)) user.lastmontly = 0
+            if (!('registered' in user)) user.registered = false
+            if (!user.registered) {
+                if (!('name' in user)) user.name = this.getName(m.sender)
+                if (!isNumber(user.age)) user.age = -1
+                if (!isNumber(user.regTime)) user.regTime = -1
+            }
+            if (!('autolevelup' in user)) user.autolevelup = true
+        } else global.DATABASE._data.users[m.sender] = {
+            healt: 100,
+            level: 0,
+            role: 'Beginner',
+            exp: 0,
+            limit: 10,
+            lastclaim: 0,
+            money: 0,
+            diamond: 0,
+            iron: 0,
+            common: 0,
+            uncommon: 0,
+            mythic: 0,
+            legendary: 0,
+            pet: 0,
+            potion: 0,
+            sampah: 0,
+            armor: 0,
+            kucing: 0,
+            kucinglastclaim: 0,
+            kuda: 0,
+            kudalastclaim: 0,
+            rubah: 0,
+            rubahlastclaim: 0,
+            anjing: 0,
+            anjinglastclaim: 0,
+            Banneduser: false,
+            BannedReason: '',
+            warn: 0,
+            afk: -1,
+            afkReason: '',
+            anakkucing: 0,
+            anakkuda: 0,
+            anakrubah: 0,
+            anakanjing: 0,
+            makananpet: 0,
+            antispam: 0,
+            antispamlastclaim: 0,
+            kayu: 0,
+            batu: 0,
+            string: 0,
+            sword: 0,
+            sworddurability: 0,
+            pickaxe: 0,
+            pickaxedurability: 0,
+            fishingrod: 0,
+            fishingroddurability: 0,
+            lastadventure: 0,
+            lastfishing: 0,
+            lastdungeon: 0,
+            lastduel: 0,
+            lastmining: 0,
+            lasthunt: 0,
+            lastweekly: 0,
+            lastmonthly: 0,
+            registered: false,
+            name: this.getName(m.sender),
+            age: -1,
+            regTime: -1,
+            autolevelup: true,
         }
 
-        let chat = global.db.data.chats[m.chat]
-        if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
+        let chat = global.DATABASE._data.chats[m.chat]
+        if (typeof chat !== 'object') global.DATABASE._data.chats[m.chat] = {}
         if (chat) {
           if (!('isBanned' in chat)) chat.isBanned = false
           if (!('welcome' in chat)) chat.welcome = false
@@ -67,9 +169,14 @@ module.exports = {
           if (!('sBye' in chat)) chat.sBye = ''
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
-          if (!('delete' in chat)) chat.delete = true
+          if (!('stiker' in chat)) chat.stiker = false
+          if (!('delete' in chat)) chat.delete = false
           if (!('antiLink' in chat)) chat.antiLink = false
-        } else global.db.data.chats[m.chat] = {
+          if (!('antiVirtext' in chat)) chat.antiVirtext = false
+          if (!('antiPhilip' in chat)) chat.antiPhilip = false
+          if (!'antiToxic' in chat) chat.antiToxic = false
+          if (!isNumber(chat.expired)) chat.expired = 0
+        } else global.DATABASE._data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
           detect: false,
@@ -77,15 +184,39 @@ module.exports = {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          delete: true,
+          stiker: false,
+          delete: false,
           antiLink: false,
+          antiVirtext: false,
+          antiPhilip: false,
+          antiToxic: false,
+          expired: 0,
+        }
+       let settings = global.DATABASE._data.settings
+        if (typeof settings !== 'object') global.db.data.settings = {}
+        if (settings) {
+          if (!'antispam' in settings) settings.antispam = true
+          if (!'antitroli' in settings) settings.antitroli = true
+          if (!'backup' in settings) settings.backup = false
+          if (!isNumber(settings.backupDATABASE)) settings.backupDATABASE = 0
+          if (!'groupOnly' in settings) settings.groupOnly = false
+          if (!'nsfw' in settings) settings.nsfw = true
+        } else global.DATABASE._data.settings = {
+          antispam: true,
+          antitroli: true,
+          backup: false,
+          backupDB: 0,
+          groupOnly: false,
+          nsfw: true
         }
       } catch (e) {
         console.error(e)
       }
       if (opts['nyimak']) return
       if (!m.fromMe && opts['self']) return
+      if (m.chat == 'status@broadcast') return
       if (typeof m.text !== 'string') m.text = ''
+      conn.chatRead(m.chat)
       for (let name in global.plugins) {
         let plugin = global.plugins[name]
         if (!plugin) continue
@@ -103,7 +234,7 @@ module.exports = {
       m.exp += Math.ceil(Math.random() * 10)
 
       let usedPrefix
-      let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
+      let _user = global.DATABASE._data && global.DATABASE._data.users && global.DATABASE._data.users[m.sender]
 
       let isROwner = [global.conn.user.jid, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
       let isOwner = isROwner || m.fromMe
@@ -115,6 +246,7 @@ module.exports = {
       let bot = m.isGroup ? participants.find(u => u.jid == this.user.jid) : {} // Your Data
       let isAdmin = user.isAdmin || user.isSuperAdmin || false // Is User Admin?
       let isBotAdmin = bot.isAdmin || bot.isSuperAdmin || false // Are you Admin?
+      let DevMode = (global.DeveloperMode.toLowerCase() == 'true') || false
       for (let name in global.plugins) {
         let plugin = global.plugins[name]
         if (!plugin) continue
@@ -171,11 +303,11 @@ module.exports = {
 
           if (!isAccept) continue
           m.plugin = name
-          if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
-            let chat = global.db.data.chats[m.chat]
-            let user = global.db.data.users[m.sender]
+          if (m.chat in global.DATABASE._data.chats || m.sender in global.DATABASE._data.users) {
+            let chat = global.DATABASE._data.chats[m.chat]
+            let user = global.DATABASE._data.users[m.sender]
             if (name != 'unbanchat.js' && chat && chat.isBanned) return // Except this
-            if (name != 'unbanuser.js' && user && user.banned) return
+            if (name != 'unbanuser.js' && user && user.Banneduser) return
           }
           if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
             fail('owner', m, this)
@@ -217,16 +349,12 @@ module.exports = {
           }
 
           m.isCommand = true
-          let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
-          if (xp > 200) m.reply('Ngecit -_-') // Hehehe
+          let xp = 'exp' in plugin ? parseInt(plugin.exp) : 15 // XP Earning per command
+          if (xp > 99999999999) m.reply('Ngecit -_-') // Hehehe
           else m.exp += xp
-          if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-            this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+          if (!isPrems && plugin.limit && global.DATABASE._data.users[m.sender].limit < plugin.limit * 1) {
+            this.reply(m.chat, `*Maaf Limit Mu Kurang*`, m)
             continue // Limit habis
-          }
-          if (plugin.level > _user.level) {
-            this.reply(m.chat, `diperlukan level ${plugin.level} untuk menggunakan perintah ini. Level kamu ${_user.level}`, m)
-            continue // If the level has not been reached
           }
           let extra = {
             match,
@@ -247,6 +375,7 @@ module.exports = {
             isBotAdmin,
             isPrems,
             chatUpdate,
+            DevMode,
           }
           try {
             await plugin.call(this, m, extra)
@@ -259,7 +388,10 @@ module.exports = {
               let text = util.format(e)
               for (let key of Object.values(global.APIKeys))
                 text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
-              m.reply(text)
+                if (DevMode && text.length > 100) {
+                        for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid))  m.reply(`*file:* ${m.plugin}\n*Nomor:* ${m.sender}\n*Text:* ${m.text}\n\n\`\`\`${text}\`\`\``, jid)
+                }
+                m.reply(text)
             }
           } finally {
             // m.reply(util.format(_user))
@@ -276,10 +408,10 @@ module.exports = {
         }
       }
     } finally {
-      //console.log(global.db.data.users[m.sender])
-      let user, stats = global.db.data.stats
+      //console.log(global.DATABASE._data.users[m.sender])
+      let user, stats = global.DATABASE._data.stats
       if (m) {
-        if (m.sender && (user = global.db.data.users[m.sender])) {
+        if (m.sender && (user = global.DATABASE._data.users[m.sender])) {
           user.exp += m.exp
           user.limit -= m.limit * 1
         }
@@ -313,11 +445,11 @@ module.exports = {
       } catch (e) {
         console.log(m, m.quoted, e)
       }
-      if (opts['autoread']) await this.chatRead(m.chat).catch(() => { })
+     if (opts['autoread']) await conn.chatRead(m.chat).catch(() => {})
     }
   },
   async participantsUpdate({ jid, participants, action }) {
-    let chat = global.db.data.chats[jid] || {}
+    let chat = global.DATABASE._data.chats[jid] || {}
     let text = ''
     switch (action) {
       case 'add':
@@ -355,35 +487,32 @@ module.exports = {
     }
   },
   async delete(m) {
+    if (m.key.remoteJid == 'status@broadcast') return
     if (m.key.fromMe) return
-    let chat = global.db.data.chats[m.key.remoteJid]
+    let chat = global.DATABASE._data.chats[m.key.remoteJid]
     if (chat.delete) return
     await this.reply(m.key.remoteJid, `
-Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
-
-Untuk mematikan fitur ini, ketik
-*.enable delete*
 `.trim(), m.message, {
       contextInfo: {
         mentionedJid: [m.participant]
       }
     })
-    this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
+    //this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
   },
-  async onCall(json) {
-    let { from } = json[2][0][1]
-    let users = global.db.data.users
-    let user = users[from] || {}
-    if (user.whitelist) return
-    switch (this.callWhitelistMode) {
-      case 'mycontact':
-        if (from in this.contacts && 'short' in this.contacts[from])
-          return
-        break
+    async onCall(json) {
+        let { from } = json[2][0][1]
+        let users = global.DATABASE._data.users
+        let user = users[from] || {}
+        if (user.whitelist) return
+        switch (this.callWhitelistMode) {
+            case 'mycontact':
+                if (from in this.contacts && 'short' in this.contacts[from])
+                    return
+                break
+        }
+        await this.sendMessage(from, '', MessageType.extendedText)
+        //await this.blockUser(from, 'add')
     }
-    await this.sendMessage(from, 'Maaf, karena anda menelfon bot. anda diblokir otomatis', MessageType.extendedText)
-    await this.blockUser(from, 'add')
-  }
 }
 
 global.dfail = (type, m, conn) => {
@@ -392,11 +521,12 @@ global.dfail = (type, m, conn) => {
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-    group: 'Perintah ini hanya dapat digunakan di grup!',
-    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk *Admin* grup!',
-    botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
+    group: 'Perintah ini hanya dapat digunakan di grup sayang!',
+    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi sayang!',
+    admin: 'Perintah ini hanya untuk *Admin* grup Sayang!',
+    botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini sayang!',
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: #daftar uTaGANS.15',
+    nsfw: 'Mode NSFW tidak aktif. Hanya pemilik bot yang bisa mengaktifkannya'
   }[type]
   if (msg) return m.reply(msg)
 }
