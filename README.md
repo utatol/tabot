@@ -1,4 +1,4 @@
-# LANGKAH LANGKAH
+# TUTORIAL
 
 ### PLAYER TERMUX
 Copy saja text dibawah ↓
