@@ -19,7 +19,7 @@ Copy aja text dibawah ↓
 
  git clone https://github.com/utatol/tabot
 
- cd tabott
+ cd tabot
 
  npm install
 
@@ -36,7 +36,7 @@ Copy aja text dibawah ↓
 ```bash
  git clone https://github.com/utatol/tabot
 
- cd tabott
+ cd tabot
 
  npm install
 
