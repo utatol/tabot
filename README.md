@@ -12,7 +12,7 @@ Copy saja text dibawah ↓
 > pkg install mc (kaloperlu)
 > git clone https://github.com/utatol/tabott
 > cd tabott
-> Extrak node_module.zip
+> npm install
 > node index.js | node .
 ```
 
