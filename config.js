@@ -1,23 +1,31 @@
-global.owner = ['6281515860089', '6281334177340'] // Put your number here
+global.DeveloperMode = 'false' //true Or false
+global.linkGC = ['nope']
+global.owner = ['6289529518895']// Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.prems = ['6289529518895', '6285652225852', '6285751577510'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
-  zeks: 'https://api.zeks.xyz'
+  nzcha: 'http://nzcha-apii.herokuapp.com',
+  bg: 'http://bochil.ddns.net',
+  fdci: 'https://api.fdci.se',
+  bsbt: 'https://bsbt-api-rest.herokuapp.com',
+  zeks: 'https://api.zeks.xyz',
+  hardianto: 'https://hardianto-chan.herokuapp.com'
+  
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'apivinz'
+  'https://api.xteam.xyz': '01645ae103eaa425',
+  'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+  'https://api.zeks.xyz': 'apivinz',
+  'https://hardianto-chan.herokuapp.com': 'hardianto'
 }
 
 // Sticker WM
-global.packname = 'I hope you\'re fine'
-global.author = 'Nurutomo'
+global.packname = 'PUNYA GW'
+global.author = ''
 
 global.multiplier = 69 // The higher, The harder levelup
 
