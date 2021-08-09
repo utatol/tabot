@@ -13,7 +13,7 @@ Copy aja text dibawah ↓
 
  pkg install imagemagick -y
 
-pkg install libwebp -y
+ pkg install libwebp -y
 
  pkg install zip (kaloperlu)
 
