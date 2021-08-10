@@ -75,6 +75,7 @@ Sampah🗑 = ${Ssampah} Money\n\n
                         
                         break
                     case 'iron':
+                    case 'iron_ingot':
                             if (global.DATABASE._data.users[m.sender].money >= Biron * count) {
                                 global.DATABASE._data.users[m.sender].iron += count * 1
                                 global.DATABASE._data.users[m.sender].money -= Biron * count
@@ -180,6 +181,7 @@ Sampah🗑 = ${Ssampah} Money\n\n
                         } else conn.reply(m.chat, `Sampah anda tidak cukup`, m)
                         break
                     case 'iron':
+                    case 'iron_ingot':
                         if (global.DATABASE._data.users[m.sender].iron >= count * 1) {
                             global.DATABASE._data.users[m.sender].iron -= count * 1
                             global.DATABASE._data.users[m.sender].money += Siron * count
@@ -220,6 +222,7 @@ Sampah🗑 = ${Ssampah} Money\n\n
                     
                     break
                     case 'iron':
+                    case 'iron_ingot':
                             if (global.DATABASE._data.users[m.sender].money >= Biron * count) {
                                 global.DATABASE._data.users[m.sender].iron += count * 1
                                 global.DATABASE._data.users[m.sender].money -= Biron * count
@@ -326,6 +329,7 @@ Sampah🗑 = ${Ssampah} Money\n\n
                     } else conn.reply(m.chat, `Sampah anda tidak cukup`.trim(), m)
                     break
                     case 'iron':
+                    case 'iron_ingot':
                         if (global.DATABASE._data.users[m.sender].iron >= count * 1) {
                             global.DATABASE._data.users[m.sender].iron -= count * 1
                             global.DATABASE._data.users[m.sender].money += Siron * count
