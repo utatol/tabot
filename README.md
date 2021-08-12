@@ -1,60 +1,75 @@
-# TUTORIAL
 
-### PLAYER TERMUX
-Copy aja text dibawah ↓
+<p align="center">
+<a href="#"><img title="uta_kamgun 64" src="https://img.shields.io/badge/RAMLAN-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/utatol"><img title="Author" src="https://img.shields.io/badge/AUTHOR-RAMLAN-orange.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Ramlan404/babybot/followers"><img title="Followers" src="https://img.shields.io/github/followers/Ramlan404?color=blue&style=flat-square"></a>
+<a href="https://github.com/Ramlan404/babybot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ramlan404/babybotcolor=red&style=flat-square"></a>
+<a href="https://github.com/Ramlan404/babybot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Ramlan404/babybot?color=red&style=flat-square"></a>
+<a href="https://github.com/Ramlan404/babybot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Ramlan404/babybot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRamlan404%2Fbabybot&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+</p>
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" alt="Mario Game" width="600" />
+<div align="center">
+<details>
+ 
+</details>
+
+### 𝗧𝗵𝗮𝗻𝗸𝘀 𝗙𝗼𝗿 𝗥𝗔𝗠𝗟𝗔𝗡 𝗜𝗗
+
+### WARNING
+MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
+
+## NOTE:> 
+SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
+</div>
+
+### ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
+Siapin alat dan bahannya.
 ```bash
- pkg update && pkg upgrade
-
- pkg install git -y
-
- pkg install nodejs -y
-
- pkg install ffmpeg -y
-
- pkg install imagemagick -y
-
- pkg install libwebp -y
-
- pkg install zip (kaloperlu)
-
- pkg install mc (kaloperlu)
-
- git clone https://github.com/utatol/tabot
-
- cd tabot
-
- npm install
-
- node index.js | node .
+> niat
+> 2 handphone (1 buat jalanin sc, 1 buat scan kode qr kak)
+> jaringan internet kenceng,kuota+
+> penyimpanan yang memadai
+> aplikasi whatsapp
+> aplikasi termux
+> kopi+rokok ;v
 ```
 
----------
-
-### FOR WINDOWS/VPS/RDP USER
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads) <br>
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download) <br>
-* Download And Install FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6) 
+### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
 ```bash
- git clone https://github.com/utatol/tabot
-
- cd tabot
-
- npm install
-
- node index.js
+> kalo lu belum punya apk termux, download di playstore
+> masuk ke apk termux lalu ketik dibawah ini!
+> termux-setup-storage [ Lalu Ijinkan ]
+> apt-get update -y
+> apt-get upgrade -y
+> pkg install git -y
+> pkg install bash -y
+> pkg install mc -y
+> git clone https://github.com/Ramlan404/babybot
+> cd babybot
+> bash install.sh
+> npm start
+> SCAN DAH BRO MHEHE EZ KAN:V
 ```
---------------
-
-### Thanks To 
-[`Nurutomo`](https://github.com/Nurutomo)
-
-[`BENNIISMAEL`](https://github.com/botstylee)
 
 
-[`xteam`](https://api.xteam.xyz)
+Ket: Script ini gratis ye Jangan dijual_-
+
+## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
+* [`Donasi Ramlan ID`](https://saweria.co/ramlangans)
 
 
-[`utatol`](https://github.com/utatol)
+## SOSIAL MEDIA ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
 
-[`bocilgemink`](https://github.com/BochilGaming)
+* [`Youtube Admin`](https://youtube.com/c/RamlanChannel21)
+* [`Instagram Admin`](https://instagram.com/iamramlan_)
+* [`WhatsApp Admin `](https://wa.me/+6285559240360)
+* [`Group WhatsApp `](https://chat.whatsapp.com/DcSr2e5hLMd7PkufBVymgu)
+## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
+
+* [`ALLAH SWT`]
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
