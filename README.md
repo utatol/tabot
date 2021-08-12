@@ -63,7 +63,7 @@ Ez Kan mwhehehehe
 
 
 ## SOSIAL MEDIA <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
-
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/wave.gif" width="29px">
 * [`Youtube`](https://youtube.com/channel/UCpnWpwB3E2lC1f6vuMDA89Q)
 * [`Instagram`](https://instagram.com/uta_kamgun)
 * [`WhatsApp`](https://wa.me/6289529518895?text=Assalamualaikum+Admin+Ganteng:v)
