@@ -57,7 +57,7 @@ masuk ke apk termux lalu ketik dibawah ini↓!
 ```
 
 ## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
-* [`Klik disini`](tabot.simdif.com)
+* [`Klik disini`](https://tabot.simdif.com)
 
 
 ## SOSIAL MEDIA <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
