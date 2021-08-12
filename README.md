@@ -41,7 +41,8 @@ Siapin alat dan bahannya.
 ### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
 ```bash
 kalo lu belum punya apk termux, download di playstore
-masuk ke apk termux lalu ketik dibawah ini↓!
+masuk ke apk termux lalu ikuti langkah langkah dibawah ini↓!
+Pastikan dengan benar agar Work
 > termux-setup-storage(enter)
 > apt-get update -y
 > apt-get upgrade -y
@@ -53,7 +54,8 @@ masuk ke apk termux lalu ketik dibawah ini↓!
 > cd tabot
 > npm install
 > node index.js
-> SCAN DAH BRO
+Ambil HPke2 Buka Whatsapp Pilih Titik 3 Dikanan Atas Klik Whatsapp Web Scan Deh
+Ez Kan mwhehehehe
 ```
 
 ## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
