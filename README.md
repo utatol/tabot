@@ -46,10 +46,10 @@ Pastikan dengan benar agar Work
 > termux-setup-storage(enter)
 > apt-get update -y
 > apt-get upgrade -y
-> pkg install git -y
-> pkg install bash -y
-> pkg install mc -y
-> pkg install zip -y
+> apt install git -y
+> apt install bash -y
+> apt install mc -y
+> apt install zip -y
 > git clone https://github.com/utatol/tabot
 > cd tabot
 > npm install
