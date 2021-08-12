@@ -1,6 +1,7 @@
 let { MessageType } = require('@adiwajshing/baileys')
 const potion = 500
 const Spotion = 90
+const Blimit = 1000
 const Bdiamond = 900
 const Sdiamond = 150
 const Biron = 150
@@ -32,6 +33,7 @@ ${usedPrefix}shop sell potion 1
 ━━━━━━━━━━━━━━━━━━━━
 List Barang:\n
 *HARGA BELI BARANG*\n
+Limit = ${Blimit} Money
 Potion🍷 = ${potion} Money
 Diamond💎 = ${Bdiamond} Money
 Iron_ingot⚪ = ${Biron} Money
@@ -65,6 +67,13 @@ Sampah🗑 = ${Ssampah} Money\n\n
                                 global.DATABASE._data.users[m.sender].potion += count * 1
                                 conn.reply(m.chat, `Succes membeli ${count} Potion dengan harga ${potion * count} money\n\nGunakan potion dengan ketik: *${usedPrefix}use potion <jumlah>*`, m)
                             } else conn.reply(m.chat, `Uang anda tidak cukup untuk membeli ${count} Potion dengan harga ${potion * count} money`,)
+                        break
+                    case 'limit':
+                            if (global.DATABASE._data.users[m.sender].money >= Blimit * count) {
+                                global.DATABASE._data.users[m.sender].money -= Blimit * count
+                                global.DATABASE._data.users[m.sender].limit += count * 1
+                                conn.reply(m.chat, `Succes membeli ${count} Limit dengan harga ${Blimit * count} Money`, m)
+                            } else conn.reply(m.chat, `Uang anda tidak cukup untuk membeli ${count} Limit dengan harga ${Blimit * count} money`,)
                         break
                     case 'diamond':
                             if (global.DATABASE._data.users[m.sender].money >= Bdiamond * count) {
@@ -211,6 +220,14 @@ Sampah🗑 = ${Ssampah} Money\n\n
                             global.DATABASE._data.users[m.sender].potion += count * 1
                             conn.reply(m.chat, `Succes membeli ${count} Potion dengan harga ${potion * count} money\n\nGunakan potion dengan ketik: *${usedPrefix}use potion <jumlah>*`, m)
                         } else conn.reply(m.chat, `Uang anda tidak cukup untuk membeli ${count} Potion dengan harga ${potion * count} money`,m)
+                    
+                    break
+                case 'limit':
+                        if (global.DATABASE._data.users[m.sender].money >= Blimit * count) {
+                            global.DATABASE._data.users[m.sender].money -= Blimit * count
+                            global.DATABASE._data.users[m.sender].limit += count * 1
+                            conn.reply(m.chat, `Succes membeli ${count} Limit dengan harga ${Blimit * count} money\n\nGunakan Limit dengan ketik: *${usedPrefix}use Limit <jumlah>*`, m)
+                        } else conn.reply(m.chat, `Uang anda tidak cukup untuk membeli ${count} Limit dengan harga ${Blimit * count} Limit`,m)
                     
                     break
                 case 'diamond':
