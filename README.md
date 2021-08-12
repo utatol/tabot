@@ -51,8 +51,8 @@ masuk ke apk termux lalu ketik dibawah ini↓!
 > pkg install zip -y
 > git clone https://github.com/utatol/tabot
 > cd tabot
-> bash install.sh
-> npm start
+> npm install
+> node index.js
 > SCAN DAH BRO
 ```
 
