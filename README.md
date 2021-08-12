@@ -1,9 +1,9 @@
 
 <p align="center">
-<a href="#"><img title="uta_kamgun 64" src="https://img.shields.io/badge/uta_kamgun 64-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="TABOT WHATSAPP" src="https://img.shields.io/badge/TABOT WHATSAPP-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/utatol"><img title="Author" src="https://img.shields.io/badge/AUTHOR-UTA-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/utatol"><img title="Author" src="https://img.shields.io/badge/PEMILIK-UTAGANS:v-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/utatol/tabot/followers"><img title="Followers" src="https://img.shields.io/github/followers/tabot?color=blue&style=flat-square"></a>
@@ -16,10 +16,8 @@
  
 </details>
 
-### TABOT WHATSAPP
-
 ### WARNING
-MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
+MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA....
 
 ## NOTE:> 
 SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX...
