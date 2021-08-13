@@ -57,7 +57,7 @@ Ez Kan mwhehehehe
 ```
 
 ## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
-[![`Klik disini`](https://img.shields.io/badge/klik disini jika ingin donasi :)-25D3667?style=for-the-badge&logo=simdif&color=yellow)](https://tabot.simdif.com)
+[![`Klik disini`](https://img.shields.io/badge/klik_disini_jika_ingin_donasi_-25D3667?style=for-the-badge&logo=simdif&color=yellow)](https://tabot.simdif.com)
 
 
 ## SOSIAL MEDIA <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
