@@ -22,17 +22,18 @@ SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA 
 YANG JUAL SC INI SEMOGA JEMPOLNYA CANTENGAN AMIN
 </div>
 
-### ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
-Siapin alat dan bahannya.
+### UNTUK VERSI ZIP <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
 ```bash
-> niat
-> 2 handphone (1 buat jalanin sc, 1 buat scan kode qrnya)
-> jaringan internet kenceng,kuota+
-> penyimpanan yang cukup
-> aplikasi whatsapp
-> aplikasi termux
-> Ciki komo
-> Minuman Panther :v
+> Extrack DIMEMORI INTERNAL
+> MASUK KE TERMUX
+> KETIK: termux-setup-storage
+> PILIH IZINKAN
+> KETIK: cd /sdcard
+> KETIK: mv tabot $HOME
+> cd tabot
+> npm install
+> node index.js
+Scan deh mwhehehe Ez
 ```
 
 ### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
