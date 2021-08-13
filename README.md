@@ -30,9 +30,9 @@ YANG JUAL SC INI SEMOGA JEMPOLNYA CANTENGAN AMIN
 > PILIH IZINKAN
 > KETIK: cd /sdcard
 > KETIK: mv tabot $HOME
-> cd tabot
-> npm install
-> node index.js
+> KETIK: cd tabot
+> KETIK: npm install
+> KETIK: node index.js
 Scan deh mwhehehe Ez
 ```
 
@@ -42,16 +42,16 @@ kalo lu belum punya apk termux, download di playstore
 masuk ke apk termux lalu ikuti langkah langkah dibawah ini↓!
 Pastikan dengan benar agar Work
 > termux-setup-storage(enter)
-> apt-get update -y
-> apt-get upgrade -y
-> apt install git -y
-> apt install bash -y
-> apt install mc -y
-> apt install zip -y
-> git clone https://github.com/utatol/tabot
-> cd tabot
-> npm install
-> node index.js
+> KETIK: apt-get update -y
+> KETIK: apt-get upgrade -y
+> KETIK: apt install git -y
+> KETIK: apt install bash -y
+> KETIK: apt install mc -y
+> KETIK: apt install zip -y
+> KETIK: git clone https://github.com/utatol/tabot
+> KETIK: cd tabot
+> KETIK: npm install
+> KETIK: node index.js
 Ambil HPke2 Buka Whatsapp Pilih Titik 3 Dikanan Atas Klik Whatsapp Web Scan Deh
 Ez Kan mwhehehehe
 ```
