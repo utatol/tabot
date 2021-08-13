@@ -1,5 +1,4 @@
-##[![`WhatsApp Group](https://img.shields.io/badge/Instagram-25D366?style=for-the-badge&logo=instagram&logoColor=white)](https://chat.whatsapp.com/LK5aLoXJ9Iq8uFrdr8TplF
-</details>
+
 <p align="center">
 <a href="#"><img title="TABOT WHATSAPP" src="https://img.shields.io/badge/TABOT WHATSAPP-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -64,9 +63,11 @@ Ez Kan mwhehehehe
 
 
 ## SOSIAL MEDIA <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
-* [`Youtube`](https://youtube.com/channel/UCpnWpwB3E2lC1f6vuMDA89Q)
-* [`Instagram`](https://instagram.com/uta_kamgun)
-* [`WhatsApp`](https://wa.me/6289529518895?text=Assalamualaikum+Admin+Ganteng:v)
+[![`Instagram`](https://img.shields.io/badge/Instagram-25D366?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/uta_kamgun/)
+[![`WHATSAPP`](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289529518895?text=Hai+ganteng)
+[![`YOUTUBE`](https://img.shields.io/badge/YouTube-25D366?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/channel/UCpnWpwB3E2lC1f6vuMDA89Q)
+</details>
+</details>
 ## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
 
 * `ALLAH SWT`
