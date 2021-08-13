@@ -57,18 +57,22 @@ Ez Kan mwhehehehe
 ```
 
 ## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
-* [`Klik disini`](https://tabot.simdif.com)
+[![`Klik disini`](https://img.shields.io/badge/donasi-25D3667?style=for-the-badge&logo=simdif&color=yellow)](https://tabot.simdif.com)
 
 
 ## SOSIAL MEDIA <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
-[![`Instagram`](https://img.shields.io/badge/Instagram-25D366?style=for-the-badge&logo=instagram&logoColor=orange&blue)](https://instagram.com/uta_kamgun/)
+[![`Instagram`](https://img.shields.io/badge/instagram-25D366?style=for-the-badge&logo=instagram&color=white)](https://instagram.com/uta_kamgun/)
+
 [![`WHATSAPP`](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289529518895?text=Hai+ganteng)
-[![`YOUTUBE`](https://img.shields.io/badge/YouTube-25D366?style=for-the-badge&logo=youtube&logoColor=red)](https://youtube.com/channel/UCpnWpwB3E2lC1f6vuMDA89Q)
+
+[![`YOUTUBE`](https://img.shields.io/badge/youtube-25D366?style=for-the-badge&logo=youtube&color=red)](https://youtube.com/channel/UCpnWpwB3E2lC1f6vuMDA89Q)
 </details>
 
 ## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
 
 * `ALLAH SWT`
 * [`Nurutomo`](https://github.com/nurutomo)
+
 * [`Botstylee`](https://github.com/botstylee)
+
 * [`BocilGamink`](https://github.com/bochilgaming)
