@@ -29,7 +29,6 @@ YANG JUAL SC INI SEMOGA JEMPOLNYA CANTENGAN AMIN
 > KETIK: termux-setup-storage
 > PILIH IZINKAN
 > KETIK: cd /sdcard
-> KETIK: mv tabot $HOME
 > KETIK: cd tabot
 > KETIK: npm install
 > KETIK: node index.js
@@ -38,10 +37,8 @@ Scan deh mwhehehe Ez
 
 ### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
 ```bash
-kalo lu belum punya apk termux, download di playstore
-masuk ke apk termux lalu ikuti langkah langkah dibawah ini↓!
-Pastikan dengan benar agar Work
-> termux-setup-storage(enter)
+MASUK KE APK TERMUX
+> KETIK: termux-setup-storage 
 > KETIK: apt-get update -y
 > KETIK: apt-get upgrade -y
 > KETIK: apt install git -y
