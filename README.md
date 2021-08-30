@@ -39,8 +39,8 @@ Scan deh mwhehehe Ez
 ```bash
 MASUK KE APK TERMUX
 > KETIK: termux-setup-storage 
-> KETIK: apt-get update -y
-> KETIK: apt-get upgrade -y
+> KETIK: apt update
+> KETIK: apt upgrade
 > KETIK: apt install git -y
 > KETIK: apt install bash -y
 > KETIK: apt install mc -y
