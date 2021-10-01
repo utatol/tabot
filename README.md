@@ -22,7 +22,7 @@ SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA 
 YANG JUAL SC INI SEMOGA JEMPOLNYA CANTENGAN AMIN
 </div>
 
-### UNTUK VERSI ZIP <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
+### UNTUK VERSI FILE <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
 ```bash
 > Extrack DIMEMORI INTERNAL
 > MASUK KE TERMUX
